@@ -8,7 +8,7 @@ from mostrar_inventario import (
 )
 
 def main():
-    # Inventario iniciaL
+    # Inventario iniciAL
     inventario = {
         'manzanas': 50,
         'naranjas': 30,
