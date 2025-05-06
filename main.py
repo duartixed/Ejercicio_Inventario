@@ -1,6 +1,6 @@
 # main.py
 
-from inventario import (
+from mostrar_inventario import (
     mostrar_inventario,
     actualizar_producto,
     agregar_producto,
