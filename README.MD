@@ -4,7 +4,7 @@ Este proyecto consiste en un sistema de gestión de inventario desarrollado en P
 
 ---
 
-## 👨‍💻 Integrantes del equipo
+## 👨‍💻 integrantes del equipo
 
 - Daniel Camilo Mendoza Rodríguez  
 - Kevin Julián Rodríguez López  
