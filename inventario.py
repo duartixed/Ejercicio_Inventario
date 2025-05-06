@@ -13,20 +13,5 @@ def actualizar_producto(inventario, producto, nueva_cantidad):
             raise KeyError(f"El producto '{producto}' no existe en el inventario.")
     except KeyError as e:
         print(e)
-def agregar_producto(inventario, producto, cantidad):
-    if producto in inventario:
-        print(f"El producto '{producto}' ya existe. Actualizando cantidad...")
-        inventario[producto] += cantidad
-    else:
-        inventario[producto] = cantidad
-        print(f"Producto '{producto}' agregado con {cantidad} unidades.")
+
  
-def eliminar_producto(inventario, producto):
-    try:
-        if producto in inventario:
-            print(f"Eliminando '{producto}' del inventario...")
-            del inventario[producto]
-        else:
-            raise KeyError(f"No se puede eliminar. El producto '{producto}' no existe.")
-    except KeyError as e:
-        print(e)
