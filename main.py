@@ -1,6 +1,6 @@
 # main.py
 
-from inventario import (
+from mostrar_inventario import (
     mostrar_inventario,
     actualizar_producto,
     agregar_producto,
@@ -8,7 +8,7 @@ from inventario import (
 )
 
 def main():
-    # Inventario iniciaL
+    # Inventario iniciAL
     inventario = {
         'manzanas': 50,
         'naranjas': 30,
