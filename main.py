@@ -1,14 +1,12 @@
 # main.py
 
-from inventario import (
-    mostrar_inventario,
-    actualizar_producto,
-    agregar_producto,
-    eliminar_producto
-)
+from mostrar_inventario import mostrar_inventario
+from actualizar_productos import actualizar_producto
+from agregar_productos import agregar_producto
+from eliminar_producto import eliminar_producto
 
 def main():
-    # InventarIo inicial
+    # Inventario inicial
     inventario = {
         'manzanas': 50,
         'naranjas': 30,
@@ -23,3 +21,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
